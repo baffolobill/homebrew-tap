@@ -2,8 +2,8 @@
 # baffolobill/homebrew-tap (Casks/volkterm.rb) on first publish and rewrites the
 # version + sha256 lines on every release.
 cask "volkterm" do
-  version "1.1.0"
-  sha256 "a2d610ac39477e3daf3d25428fc918a67e712558d34b492b26cf269ad27350f6"
+  version "1.1.1"
+  sha256 "21b71dc8b3136959e59fe7430fd80659d3620df9443990e9999ea2db61b83f9c"
 
   url "https://github.com/baffolobill/volkterm/releases/download/v#{version}/volkterm-#{version}.dmg"
   name "volkterm"
