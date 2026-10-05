@@ -1,13 +1,13 @@
 # Source-of-truth Homebrew cask for volkterm. scripts/release.sh copies it into
 # baffolobill/homebrew-tap (Casks/volkterm.rb) on every publish and sets version + sha256.
 cask "volkterm" do
-  version "1.5.9"
-  sha256 "6d0a54113b715aa0604fca2c641e33272b72f0963e63f08ac46ce545ca935f28"
+  version "1.5.10"
+  sha256 "61971767ec55ccee0ad7994d71fbffc20d59b8144ca9a594375cbce177209dac"
 
-  url "https://github.com/baffolobill/volkterm-releases/releases/download/v#{version}/volkterm-#{version}.dmg"
+  url "https://github.com/baffolobill/volkterm/releases/download/v#{version}/volkterm-#{version}.dmg"
   name "volkterm"
   desc "Tiled terminal on libghostty for running many coding agents at once"
-  homepage "https://github.com/baffolobill/volkterm-releases"
+  homepage "https://github.com/baffolobill/volkterm"
 
   depends_on macos: :sonoma
 
