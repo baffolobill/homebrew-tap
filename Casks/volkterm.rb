@@ -1,8 +1,8 @@
 # Source-of-truth Homebrew cask for volkterm. scripts/release.sh copies it into
 # baffolobill/homebrew-tap (Casks/volkterm.rb) on every publish and sets version + sha256.
 cask "volkterm" do
-  version "1.5.25"
-  sha256 "f84a71eda48f17a345ad13bf4bc5221cbd30102dea48eae53213efd8214ab12c"
+  version "1.5.26"
+  sha256 "6848f83a029333029e692f55ec2854c554e547293b23ae460322c63844314130"
 
   url "https://github.com/baffolobill/volkterm/releases/download/v#{version}/volkterm-#{version}.dmg"
   name "volkterm"
